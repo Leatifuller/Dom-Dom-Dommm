@@ -1,0 +1,19 @@
+/*div to black square and horizontal and display centered*/
+.squares {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 6px;
+    line-height: 200px;
+    text-align: center;
+  }
+  /*disappear when cursor isnt over square*/
+  .squareText {
+    visibility: hidden;
+  }
+  /*make visible and random colors 0-250 when hovering over squares*/
+  .squares:hover .squareText {
+    color: rgb(250, 250, 250);
+    visibility: visible;
+  }
